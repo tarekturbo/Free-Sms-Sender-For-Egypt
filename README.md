@@ -1,7 +1,6 @@
 # Free SMS sender (Egyption numbers only)
 this function will allow you to send free sms to any egyption number,i think this endpoint has no limits 😁.
 ```python
-from urllib import response
 import requests
 def SendFreeSms(phone,message,debug=True):
     resp = requests.post("https://www.amanshops.com/AmanAPI/Installment/CreateOTP/"
